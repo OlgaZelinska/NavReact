@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul li {
+  list-style-type: none; 
+ }
+a {
+  text-decoration: none;
+  color: #404040;
+}   
+.App {
+  width: 1920px;
+  height: 1080px; 
+  display: flex;
+} 
+.logo{
+  margin-top: 65px;
+  margin-left: 65px;
+}
+.nav {
+  color: #404040;
+  width: 25%;
+}
+.circle{    
+  background: #404040;
+  display: inline-block;    
+  margin: 10px 20px;    
+  width: 12px;
+  height: 12px;
+  border-radius: 20px;
+}
+.square {    
+  background: #404040;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 20px;  
+  line-height: 40px;
+  width: 13px;
+  height: 13px;
+}
+.triangle {     
+  display: inline-block;
+  border: 7px solid transparent;
+  border-bottom: 13px solid #404040;
+  margin: 10px 20px;  
+}
+.nav-second{
+  border-left: 2px solid #404040; 
+  height: 97px;    
+  margin-left: 48px;
+  margin-top: 60px;
+}
+.circle-second {        
+  display: inline-block;
+  border: 1px solid #404040;
+  border-radius: 20px;
+  margin: 10px 20px;    
+  width: 13px;
+  height: 13px;
+}
+.wrapper {
+  /*background-image: url(../icon/background.png);*/
+  width: 75%;  
+  background-repeat: no-repeat;
+  display: flex;
+}
+/*.wrapper:after {
+  position: absolute;
+  content: "КОММУНИКАЦИИ";
+  color: #ffffff;
+  opacity: 0.3;
+  font-size: 120px;   
+  top: 124px;        
+  left: 50%;
+  margin-left: -400px;
+  text-align:center;
+  letter-spacing: 20px;
+ 
+}*/s
+.item-menu{
+  color: #ffffff;
+  padding: 40px;
+  border-left: 1px solid #ffffff; 
+}
+.item-menu-line {
+  border-left: 2px solid #ffffff; 
+  height: 82px;       
+  margin-top: 210px;
+}
+.item-menu-line span{
+  padding-left: 10px; 
+}
+.item-menu ul{
+  margin-left: 115px;
+  margin-top: 52px;
+}
+.item-menu ul li{
+  padding: 12px;
+}
+.icon-close{
+  padding: 2px;
+}
+/*блок поиска*/
+.input-search {
+
+  border: 3px solid #404040;
+  position:relative;
+  background: white;
+  margin-left: 30px;
+
+}
+.input-search::before{
+  content: " ";
+  position:absolute;
+  top:10px;
+  left:-14px;
+  background-color: #404040;
+}    
+

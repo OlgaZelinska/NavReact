@@ -1,0 +1,16 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 384 64" style="enable-background:new 0 0 384 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="Search_x5F_Button">
+	<polyline class="st1" points="20,4 380,4 380,44 	"/>
+	<polyline class="st1" points="4,20 4,60 364,60 	"/>
+	<polyline class="st2" points="0.5,19.5 0.5,63.5 364.5,63.5 	"/>
+	<circle class="st0" cx="348" cy="28" r="12"/>
+	<line class="st0" x1="360" y1="40" x2="368" y2="48"/>
+</g>
+</svg>
