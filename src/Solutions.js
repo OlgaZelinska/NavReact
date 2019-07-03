@@ -64,7 +64,7 @@ export default class Solutions extends Component {
 					this.state.goods.map(item => <Good key = {item.id} item = {item}/>) :
 					this.renderGood()
 				}
-			
+		
 			</div>
 		)
 	}

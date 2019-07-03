@@ -4,17 +4,20 @@ import { Link } from 'react-router-dom';
 
 const Navigation = (props) => {
 	return (
-		<div className="nav">					
+		<div className="nav">			
+      <h1 className="logo"><a href="#"><img src={require('./icon/Logo.png')} alt="Logo" /></a></h1>
 		<nav className="nav-first">
-		    <li><Link to = "/solutions">Решения в сфере DS</Link></li>
-		        <ul className="sub-menu">
-                     <li><span className="circle"></span><Link to = "/solutions/page-1">Интерактивная коммуникация</Link></li>
-                     <li><span className="square"></span><Link to = "/solutions/page-2">Визуальная коммуникация</Link></li>
-                     <li><span className="triangle"></span><Link to = "/solutions/page-3">Корпоративная коммуникация</Link></li>
-                </ul>
+         <ul>
+		    <li><Link to = "/solutions"><b>Решения</b>в сфере DS</Link></li>
+               <ul className="sub-menu">
+                  <span className="circle"></span><li><Link to = "/solutions/page-1"><b>Интерактивная</b><br/> коммуникация</Link></li><br/>
+                  <span className="square"></span><li><Link to = "/solutions/page-2"><b>Визуальная</b><br/>коммуникация</Link></li><br/>
+                  <span className="triangle"></span><li><Link to = "/solutions/page-3"><b>Корпоративная</b><br/>коммуникация</Link></li><br/>
+               </ul>
 		<li><Link to = "/about">О нас</Link></li>
 		<li><Link to = "/news">Новости</Link></li>
-		<li><Link to = "/contacts">Контакты</Link></li>			
+		<li><Link to = "/contacts">Контакты</Link></li>		
+      </ul>	
 		</nav>
 		<nav className="nav-second">
          <ul>
@@ -24,7 +27,7 @@ const Navigation = (props) => {
          </ul>
          </nav>
          <div className="input-search">
-            <input type="text" placeholder="Поиск" action=""/>
+             <img src={require('./icon/Search.png')} />
          </div>     
 		</div>
 		
